@@ -1,0 +1,262 @@
+p {
+  line-height: 1.75;
+}
+
+.page-section {
+  padding-top: 6rem;
+}
+
+.page-section h2.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.page-section h3.section-subheading {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.page-section h2.section-heading-form {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.page-section h3.section-subheading-form {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding-top: 9rem;
+  }
+}
+
+.login-register {
+  background-color: #23282e;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat";
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+#mainNav .navbar-brand {
+  color: #0d6efd;
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #0d6efd;
+}
+
+header.masthead {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("/assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-shadow: 3px 2px 1px grey;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab";
+}
+
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  text-shadow: 3px 2px 1px grey;
+  line-height: 3.25rem;
+  margin-bottom: 4rem;
+  font-family: "Montserrat";
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 15rem;
+    padding-bottom: 12.5rem;
+  }
+
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 3px 2px 1px grey;
+  }
+
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+    text-shadow: 3px 2px 1px grey;
+  }
+}
+
+#layanan h2.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+#galeri {
+  background-color: #23282e;
+}
+
+#galeri h2.section-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+#galeri .galeri-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galeri .galeri-item .galeri-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #ced4da;
+}
+
+#galeri .galeri-item .galeri-caption .galeri-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+#galeri .galeri-item .galeri-caption .galeri-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab";
+}
+
+#tentang h2.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+section#kontak {
+  background-color: #23282e;
+  padding-bottom: 6rem;
+}
+
+section#kontak .section-heading {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+section#kontak form#kontakForm .form-group {
+  margin-bottom: 1.5rem;
+}
+
+section#kontak form#kontakForm .form-group input,
+section#kontak form#kontakForm .form-group textarea,
+section#kontak form#kontakForm .form-group select {
+  padding: 1.25rem;
+}
+
+section#kontak form#kontakForm .form-group select {
+  font-family: "Montserrat";
+  font-size: medium;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+section#kontak form#kontakForm .form-group input.form-control,
+section#kontak form#kontakForm .form-group select.form-control {
+  height: auto;
+}
+
+section#kontak form#kontakForm .form-group-textarea {
+  height: 100%;
+}
+
+section#kontak form#kontakForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+
+section#kontak form#kontakForm .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+section#kontak form#kontakForm ::-webkit-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #7b7e82;
+}
+
+section#kontak form#kontakForm :-moz-placeholder {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #7b7e82;
+}
+
+section#kontak form#kontakForm ::-moz-placeholder {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #7b7e82;
+}
+
+section#kontak form#kontakForm :-ms-input-placeholder {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #7b7e82;
+}
